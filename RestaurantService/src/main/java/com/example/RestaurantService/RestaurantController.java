@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class RestaurantController {
     @GetMapping("list")
     public List<String> getAllRestaurants(){
-        return Arrays.asList("zinga", "La","La","hu","hu");
+        return Arrays.asList("La Costa", "Le Stone","Blue ridge","Blue water","Secret Sambar");
     }
 
 
