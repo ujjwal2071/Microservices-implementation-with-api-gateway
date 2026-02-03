@@ -16,7 +16,7 @@ public class UserController {
     @RequestMapping("/welcome")
     public String welcome() {
         String restaurantList=RestaurantClient.getRestaurantData();
-        return "Welcome User to our App following are the list of restaurant"+restaurantList;
+        return "Welcome to User Service! Available restaurants: "+restaurantList;
     }
 
     
